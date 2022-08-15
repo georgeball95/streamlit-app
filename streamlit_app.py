@@ -8,7 +8,7 @@ st.markdown("Predict the game")
 
 st.header("Wisdom of the crowds")
 
-col1,col2,col3 = st.columns(3)
+#col1,col2,col3 = st.columns(3)
 col1.metric("Man C to win the PL","80%","4%")
 col2.metric("Salah to win the Golden Boot", "50%","-2%")
 col3.metric("Leicester to get relegated", "10%","+2%")
