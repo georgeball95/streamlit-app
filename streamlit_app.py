@@ -12,6 +12,6 @@ prediction1 = st.text_input("% chance prediction")
 
 outcome = st.text_input("outcome")
 
-brier = (prediction-outcome)**2
+brier = (prediction1-outcome)**2
 
 st.markdown("your brier score: {}".format(brier))
